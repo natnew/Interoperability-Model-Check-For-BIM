@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MCSettings AllowRequired="False" Name="Sample Checks for Model Checker Configurator" Icon="" Image="" SampleModel="">
+  <Heading HeadingText="Heading" Description="Add a name to &quot;Heading&quot; to define a main group of checks.">
+    <Section SectionName="Section" Title="" IsChecked="True" Description="Add a name to &quot;Section&quot; to define a sub-group of checks.">
+      <Check CheckName="Unused Elements" IsModelCheck="True" Description="Number of items that can be purged in the current model and all linked models." ShowList="False" FailureMessage="" FailureCondition="ReportElements" CheckType="UnusedElements" IsRequired="False" IsChecked="True" />
+    </Section>
+  </Heading>
+</MCSettings>

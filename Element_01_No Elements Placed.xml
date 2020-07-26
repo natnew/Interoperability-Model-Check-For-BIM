@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MCSettings AllowRequired="False" Name="Model Checker Configurator Sample Checks" Icon="" Image="" SampleModel="">
+  <Heading HeadingText="Heading" Description="Add a name to &quot;Heading&quot; to define a main group of checks.">
+    <Section SectionName="Section" Title="" IsChecked="True" Description="Add a name to &quot;Section&quot; to define a sub-group of checks.">
+      <Check CheckName="No Elements Placed" IsModelCheck="False" Description="Checks if no ceilings have been placed in the current model or linked models." ShowList="False" FailureMessage="There are no ceilings placed in the current model or linked models." FailureCondition="NoElements" CheckType="Custom" IsRequired="False" IsChecked="True">
+        <Filter Operator="And" Category="Category" Property="OST_Ceilings" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="TypeOrInstance" Property="Is Element Type" Condition="Equal" Value="False" FieldTitle="" UserDefined="False" Validation="None" />
+      </Check>
+    </Section>
+  </Heading>
+</MCSettings>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MCSettings AllowRequired="False" Name="Model Checker Configurator Sample Checks" Icon="" Image="" SampleModel="">
+  <Heading HeadingText="Heading" Description="Add a name to &quot;Heading&quot; to define a main group of checks.">
+    <Section SectionName="Section" Title="" IsChecked="True" Description="Add a name to &quot;Section&quot; to define a sub-group of checks.">
+      <Check CheckName="Parameter Does Not Exist in Elements" IsModelCheck="False" Description="Checks if &quot;COBie.Component.Name&quot; parameter does not exist in an element." ShowList="False" FailureMessage="&quot;COBie.Component.Name&quot; parameter does not exist in an element." FailureCondition="ReportElements" CheckType="Custom" IsRequired="False" IsChecked="True">
+        <Filter Operator="And" Category="Category" Property="OST_DuctTerminal" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_CableTrayFitting" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_CableTray" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Casework" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Ceilings" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Columns" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_CommunicationDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_ConduitFitting" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Conduit" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_CurtainWallPanels" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_CurtainWallMullions" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_DataDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Doors" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_DuctAccessory" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_DuctFitting" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_DuctInsulations" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_DuctLinings" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_DuctCurves" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_ElectricalEquipment" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_ElectricalFixtures" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_FireAlarmDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_FlexDuctCurves" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_FlexPipeCurves" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Floors" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Furniture" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_FurnitureSystems" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_GenericModel" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_LightingDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_LightingFixtures" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_MechanicalEquipment" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_NurseCallDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_PipeAccessory" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_PipeFitting" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_PipeInsulations" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_PipeCurves" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Planting" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_PlumbingFixtures" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StairsRailing" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Sprinklers" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Ramps" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Stairs" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Roofs" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_SecurityDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Site" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_SpecialityEquipment" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_AreaRein" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StructuralColumns" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StructConnections" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StructuralFraming" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_PathRein" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Rebar" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StructuralFoundation" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StructuralStiffener" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_StructuralTruss" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_TelephoneDevices" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Walls" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Category" Property="OST_Windows" Condition="Included" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="Parameter" Property="COBie.Component.Name" Condition="Undefined" Value="True" FieldTitle="" UserDefined="False" Validation="None" />
+        <Filter Operator="And" Category="TypeOrInstance" Property="Is Element Type" Condition="Equal" Value="False" FieldTitle="" UserDefined="False" Validation="None" />
+      </Check>
+    </Section>
+  </Heading>
+</MCSettings>
